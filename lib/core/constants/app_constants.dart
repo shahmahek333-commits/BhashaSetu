@@ -1,6 +1,6 @@
-/// Application-wide constants for BhasaSetu
+/// Application-wide constants for BhashaSetu
 abstract final class AppConstants {
-  static const String appName = 'BhasaSetu';
+  static const String appName = 'BhashaSetu';
   static const String appTagline = 'Vernacular Pedagogy & Translation';
   static const String appSubtitle = 'Bridging Hindi & Santhali for Primary Education';
 

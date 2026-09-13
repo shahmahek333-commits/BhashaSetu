@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-/// Quiz question types supported in BhasaSetu.
+/// Quiz question types supported in BhashaSetu.
 enum QuizType {
   multipleChoice,
   matchTheWord,

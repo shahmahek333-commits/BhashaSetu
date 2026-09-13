@@ -7,7 +7,7 @@ import '../language_bank/language_bank_screen.dart';
 import '../phrases/classroom_phrases_screen.dart';
 import '../quiz/quiz_selection_screen.dart';
 
-/// Learn screen for BhasaSetu.
+/// Learn screen for BhashaSetu.
 /// Houses educational pedagogy tools: Flashcards, Quizzes, Classroom Phrases, and Language Bank.
 class LearnScreen extends StatelessWidget {
   const LearnScreen({super.key});

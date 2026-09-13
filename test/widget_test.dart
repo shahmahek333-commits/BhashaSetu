@@ -188,7 +188,7 @@ void main() {
       await tester.tap(find.byTooltip('How to Use'));
       await tester.pumpAndSettle();
 
-      expect(find.text('How to Use BhasaSetu'), findsOneWidget);
+      expect(find.text('How to Use BhashaSetu'), findsOneWidget);
       expect(find.text('Step 1: Create your profile'), findsOneWidget);
 
       await tester.pageBack();

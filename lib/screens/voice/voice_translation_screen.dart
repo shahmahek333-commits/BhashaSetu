@@ -12,7 +12,7 @@ import '../../services/translation_service.dart';
 import '../../services/tts_service.dart';
 import '../../widgets/common/custom_card.dart';
 
-/// Professional Voice Translation screen for BhasaSetu.
+/// Professional Voice Translation screen for BhashaSetu.
 /// Handles speech-to-text recording, role-based translation direction,
 /// authentic Hindi TTS playback, and transparent capability notices for Santhali.
 class VoiceTranslationScreen extends StatefulWidget {

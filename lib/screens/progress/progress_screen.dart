@@ -3,7 +3,7 @@ import '../../core/theme/app_colors.dart';
 import '../../widgets/common/custom_card.dart';
 import '../../widgets/common/section_header.dart';
 
-/// Progress screen for BhasaSetu.
+/// Progress screen for BhashaSetu.
 /// Previews the metrics dashboard for learning streak, quiz accuracy, and vocabulary.
 class ProgressScreen extends StatelessWidget {
   const ProgressScreen({super.key});

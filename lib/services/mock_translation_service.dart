@@ -1,7 +1,7 @@
 import '../models/translation_result.dart';
 import 'translation_service.dart';
 
-/// Real working mock translation service for BhasaSetu prototype demonstrations.
+/// Real working mock translation service for BhashaSetu prototype demonstrations.
 /// Uses a curated, clearly labelled sample dictionary of primary classroom phrases
 /// and vocabulary between Hindi and Santhali (Devanagari, Ol Chiki, and phonetic).
 class MockTranslationService implements TranslationService {

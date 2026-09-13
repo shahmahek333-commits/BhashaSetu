@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Color palette for BhasaSetu.
+/// Color palette for BhashaSetu.
 /// Adheres to the pastel educational theme:
 /// - Pastel lavender
 /// - Pastel blue

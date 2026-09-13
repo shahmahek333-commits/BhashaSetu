@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../models/translation_result.dart';
 import 'translation_service.dart';
 
-/// Translation service implementation connecting Flutter to the BhasaSetu
+/// Translation service implementation connecting Flutter to the BhashaSetu
 /// FastAPI backend gateway (`POST /api/translate`).
 ///
 /// Designed to interact with the Government of India BHASHINI pipeline

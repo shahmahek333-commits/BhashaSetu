@@ -4,7 +4,7 @@ import '../../core/routes/app_routes.dart';
 import '../../core/theme/app_colors.dart';
 import '../../widgets/common/custom_card.dart';
 
-/// Onboarding screen introducing BhasaSetu's purpose and pedagogy tools.
+/// Onboarding screen introducing BhashaSetu's purpose and pedagogy tools.
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
 

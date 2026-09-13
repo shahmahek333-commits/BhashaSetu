@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../core/theme/app_colors.dart';
 import '../../widgets/common/custom_card.dart';
 
-/// Comprehensive guide explaining how to navigate and use BhasaSetu.
+/// Comprehensive guide explaining how to navigate and use BhashaSetu.
 class HowToUseScreen extends StatelessWidget {
   const HowToUseScreen({super.key});
 
@@ -77,7 +77,7 @@ class HowToUseScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('How to Use BhasaSetu'),
+        title: const Text('How to Use BhashaSetu'),
       ),
       body: SafeArea(
         child: ListView(
@@ -99,7 +99,7 @@ class HowToUseScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    'Follow these 8 simple steps to get the most out of BhasaSetu in your primary classroom.',
+                    'Follow these 8 simple steps to get the most out of BhashaSetu in your primary classroom.',
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: AppColors.charcoalMuted,
                         ),

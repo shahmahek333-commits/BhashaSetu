@@ -13,7 +13,7 @@ import '../../services/translation_service.dart';
 import '../../services/tts_service.dart';
 import '../../widgets/common/custom_card.dart';
 
-/// Professional Textbook OCR Scanner screen for BhasaSetu.
+/// Professional Textbook OCR Scanner screen for BhashaSetu.
 /// Enables camera capture, gallery selection, and textbook sample extraction,
 /// followed by Devanagari text recognition, user editing, and vernacular translation.
 class ScanTextbookScreen extends StatefulWidget {

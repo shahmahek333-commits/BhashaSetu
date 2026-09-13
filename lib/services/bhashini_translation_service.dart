@@ -4,7 +4,7 @@ import 'api_translation_service.dart';
 import 'translation_service.dart';
 
 /// BHASHINI language translation service adapter.
-/// Interfaces with Government of India BHASHINI pipeline via the BhasaSetu
+/// Interfaces with Government of India BHASHINI pipeline via the BhashaSetu
 /// FastAPI backend gateway.
 class BhashiniTranslationService implements TranslationService {
   final String? backendUrl;

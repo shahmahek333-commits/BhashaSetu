@@ -8,7 +8,7 @@ import '../../screens/profile/profile_setup_screen.dart';
 import '../../screens/quiz/quiz_selection_screen.dart';
 import '../../screens/voice/voice_translation_screen.dart';
 
-/// Central route definitions and generator for BhasaSetu.
+/// Central route definitions and generator for BhashaSetu.
 abstract final class AppRoutes {
   static const String main = '/';
   static const String onboarding = '/onboarding';

@@ -20,9 +20,9 @@ logging.basicConfig(
 logger = logging.getLogger("bhasa_setu.app")
 
 app = FastAPI(
-    title="BhasaSetu Translation Gateway API",
+    title="BhashaSetu Translation Gateway API",
     description=(
-        "Enterprise-grade translation gateway for BhasaSetu connecting primary classroom "
+        "Enterprise-grade translation gateway for BhashaSetu connecting primary classroom "
         "vernacular pedagogy with Government of India BHASHINI / Dhruva language infrastructure."
     ),
     version="1.0.0",
@@ -58,7 +58,7 @@ async def global_exception_handler(request: Request, exc: Exception):
 @app.get("/", tags=["Info"])
 async def root_info():
     return {
-        "service": "BhasaSetu Translation Gateway",
+        "service": "BhashaSetu Translation Gateway",
         "status": "online",
         "documentation": "/docs",
         "health_check": "/health",

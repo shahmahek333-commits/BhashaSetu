@@ -7,7 +7,7 @@ import '../../models/user_profile.dart';
 import '../dashboard/student_dashboard.dart';
 import '../dashboard/teacher_dashboard.dart';
 
-/// Home view of BhasaSetu that dynamically presents the Teacher or Student dashboard
+/// Home view of BhashaSetu that dynamically presents the Teacher or Student dashboard
 /// based strictly on the saved user role from Stage 3.
 class HomeScreen extends StatelessWidget {
   final ValueChanged<int>? onNavigateToTab;

@@ -1,4 +1,4 @@
-# BhasaSetu (भाषा सेतु / ᱵᱷᱟᱥᱟ ᱥᱮᱛᱩ)
+# BhashaSetu (भाषा सेतु / ᱵᱷᱟᱥᱟ ᱥᱮᱛᱩ)
 
 > **Bilingual Primary Classroom Translation & Vernacular Pedagogy Platform**  
 > *Connecting Hindi & Santhali (Ol Chiki Script) for Teachers and Students*  
@@ -8,7 +8,7 @@
 
 ## 1. Project Overview
 
-**BhasaSetu** is an offline-first, vernacular educational platform designed to bridge linguistic communication barriers in tribal and bilingual primary school classrooms. In regions where Santhali-speaking children enter primary school while textbooks and official curricula are primarily taught in Hindi, BhasaSetu enables teachers and young learners to communicate, teach, and learn seamlessly.
+**BhashaSetu** is an offline-first, vernacular educational platform designed to bridge linguistic communication barriers in tribal and bilingual primary school classrooms. In regions where Santhali-speaking children enter primary school while textbooks and official curricula are primarily taught in Hindi, BhashaSetu enables teachers and young learners to communicate, teach, and learn seamlessly.
 
 The platform provides dual teacher and student pedagogical experiences, bidirectional text translation, voice translation with speech capture, textbook OCR scanning, interactive flashcards, bilingual quizzes, a comprehensive classroom phrasebook, and a curated regional language bank.
 
@@ -153,7 +153,7 @@ py -m pip install -r backend/requirements.txt
 
 ## 8. How to Run the Flutter Web Version
 
-To run BhasaSetu in your browser via the local web server:
+To run BhashaSetu in your browser via the local web server:
 
 ```bash
 flutter run -d web-server --web-port 8080
@@ -216,12 +216,12 @@ To connect live Government of India BHASHINI language models:
 
 ## 12. Demo Mode Explanation
 
-**BhasaSetu is built to be 100% functional out-of-the-box in Demo Mode without requiring BHASHINI credentials or an active internet connection.**
+**BhashaSetu is built to be 100% functional out-of-the-box in Demo Mode without requiring BHASHINI credentials or an active internet connection.**
 
 - When BHASHINI credentials are not present in `.env`, the backend cleanly returns HTTP 503 (`BHASHINI_NOT_CONFIGURED`).
 - The Flutter application seamlessly uses `MockTranslationService`, providing authentic translations for classroom phrases, daily vocabulary, greetings, instructions, and textbook passages.
 - All local features (SQLite storage, profiles, flashcards, quizzes, phrasebook, language bank, audio playback) work offline without crashing.
-- **Integrity Guarantee**: BhasaSetu never invents fake responses or displays simulated output as real BHASHINI output.
+- **Integrity Guarantee**: BhashaSetu never invents fake responses or displays simulated output as real BHASHINI output.
 
 ---
 

@@ -1,4 +1,4 @@
-/// Data model representing the result of a translation operation in BhasaSetu.
+/// Data model representing the result of a translation operation in BhashaSetu.
 class TranslationResult {
   final String sourceText;
   final String translatedText;

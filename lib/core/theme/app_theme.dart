@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'app_colors.dart';
 
-/// Central theme configuration for BhasaSetu adhering to Material 3
+/// Central theme configuration for BhashaSetu adhering to Material 3
 /// and the pastel educational design language.
 abstract final class AppTheme {
   static ThemeData get lightTheme {

@@ -13,7 +13,7 @@ void main() {
   runApp(const BhasaSetuApp());
 }
 
-/// Root application widget for BhasaSetu.
+/// Root application widget for BhashaSetu.
 /// Handles initial profile inspection, routing, and pastel Material 3 theme binding.
 class BhasaSetuApp extends StatefulWidget {
   final ProfileStorageService? storageService;

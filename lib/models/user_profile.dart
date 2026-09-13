@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-/// Represents the primary role of the user within BhasaSetu.
+/// Represents the primary role of the user within BhashaSetu.
 enum UserRole {
   teacher,
   student;
@@ -45,7 +45,7 @@ enum UserRole {
   }
 }
 
-/// User profile model for BhasaSetu storing essential identity,
+/// User profile model for BhashaSetu storing essential identity,
 /// institutional affiliation, and educational role.
 class UserProfile {
   final String fullName;

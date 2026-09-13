@@ -7,7 +7,7 @@ import '../../widgets/common/custom_card.dart';
 import '../../widgets/common/section_header.dart';
 import 'profile_setup_screen.dart';
 
-/// Profile screen for BhasaSetu.
+/// Profile screen for BhashaSetu.
 /// Displays active user identity, role, school details, and allows editing.
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -235,7 +235,7 @@ class ProfileScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'How to Use BhasaSetu',
+                      'How to Use BhashaSetu',
                       style: Theme.of(context).textTheme.titleSmall?.copyWith(
                             fontWeight: FontWeight.w700,
                           ),
