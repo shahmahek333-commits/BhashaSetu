@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Speech Test</title></head>
+<body>
+<div id="output">Waiting for voices...</div>
+<script>
+function check() {
+  const v = window.speechSynthesis.getVoices();
+  if (v.length > 0) {
+    document.getElementById('output').innerText = JSON.stringify({
+      count: v.length,
+      voices: v.map(x => ({ name: x.name, lang: x.lang })),
+      hindi: v.filter(x => x.lang.toLowerCase().includes('hi')).map(x => ({ name: x.name, lang: x.lang }))
+    });
+  }
+}
+window.speechSynthesis.onvoiceschanged = check;
+check();
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><title>STT Test</title></head>
+<body>
+<div id="output">Testing STT...</div>
+<script>
+try {
+  const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRec) {
+    document.getElementById('output').innerText = JSON.stringify({ error: 'No SpeechRec' });
+  } else {
+    const rec = new SpeechRec();
+    rec.lang = 'hi-IN';
+    rec.continuous = false;
+    rec.interimResults = true;
+    document.getElementById('output').innerText = JSON.stringify({
+      success: true,
+      lang: rec.lang,
+      continuous: rec.continuous,
+      interimResults: rec.interimResults
+    });
+  }
+} catch (e) {
+  document.getElementById('output').innerText = JSON.stringify({ error: e.toString() });
+}
+</script>
+</body>
+</html>
